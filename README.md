@@ -21,7 +21,7 @@ Step 3: After successful start up, you will see below message under Command Prom
 
 Step 1: Please find below URI details
 
-	URI : http://localhost:8080/calculateNetBillAmt/{billAmt}/{customerType}/{purchaseType}
+	URI : http://localhost:4080/calculateNetBillAmt/{billAmt}/{customerType}/{purchaseType}
 	
 Please change below values: 
 	
@@ -33,7 +33,7 @@ Please change below values:
 	
 Please hit below example URL:
 	
-	http://localhost:8080/calculateNetBillAmt/1000/LoyalCustomer/Groceries
+	http://localhost:4080/calculateNetBillAmt/1000/LoyalCustomer/Groceries
 	
 Sample Response:
 
@@ -41,7 +41,7 @@ Sample Response:
 			
 I have also prepared Swagger API documentation for this service. Please hit below URL to view complete swagger API documentation as well.
 	
-	http://localhost:8080/swagger-ui.html
+	http://localhost:4080/swagger-ui.html
 
 ### 3. Importing the project in Spring Tool Suite (STS) IDE
 
